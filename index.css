@@ -1,0 +1,72 @@
+body {
+    background: #f8e8f0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Marquee Heading */
+marquee h1 {
+    color: #b71c1c;
+    font-size: 32px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+/* Main Container */
+.main-container {
+    width: 70%;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+
+/* Academy Image */
+img {
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+    margin-top: 20px;
+}
+
+/* Paragraph */
+p {
+    width: 80%;
+    margin: 20px auto;
+    font-size: 18px;
+    color: #4a148c;
+    line-height: 1.6;
+}
+
+/* Navigation List */
+.menu-box {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    background: #f3e5f5;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+/* List Items */
+ol li {
+    list-style-type: decimal;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Links */
+ol li a {
+    color: #6a1b9a;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+ol li a:hover {
+    color: #ab47bc;
+    text-decoration: underline;
+    font-size: 21px;
+}
